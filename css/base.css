@@ -10,8 +10,8 @@
 @font-face {
   font-display: swap;
 	font-family: 'Roboto Slab';
-	src: url('../fonts/RobotoSlab-Regular.woff2') format('woff2'),
-       url('../fonts/RobotoSlab-Regular.woff') format('woff');
+	src:  url('../fonts/RobotoSlab-Regular.woff2') format('woff2'),
+        url('../fonts/RobotoSlab-Regular.woff') format('woff');
 	font-weight: 400;
 	font-style: normal;
 }
@@ -19,8 +19,8 @@
 @font-face {
   font-display: swap;
 	font-family: 'Rubik';
-	src: url('../fonts/Rubikmedium.woff2') format('woff2'),
-       url('../fonts/Rubikmedium.woff') format('woff');
+	src:  url('../fonts/Rubikmedium.woff2') format('woff2'),
+        url('../fonts/Rubikmedium.woff') format('woff');
 	font-weight: 600;
 	font-style: normal;
 }
@@ -28,8 +28,8 @@
 @font-face {
   font-display: swap;
   font-family: 'Poppins';
-  src: url('../fonts/Poppinsregular.woff2') format('woff2'),
-       url('../fonts/Poppinsregular.woff') format('woff');
+  src:  url('../fonts/Poppinsregular.woff2') format('woff2'),
+        url('../fonts/Poppinsregular.woff') format('woff');
   font-weight: 400;
   font-style: normal;
 }
@@ -275,7 +275,7 @@ body {
 
 /*  Header  */
 
-.header__navigation {
+.navigation {
   display: grid;
   grid-template-columns: auto 1fr auto;
   align-items: center;
@@ -334,6 +334,9 @@ body {
 /*  Welcome  */
 
 .welcome {
+  max-width: 1448px;
+  margin-left: auto;
+  margin-right: auto;
   padding-top: 43px;
   padding-bottom: 108px;
   background-image: url(../img/bg-main.png);

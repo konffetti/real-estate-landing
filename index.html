@@ -14,7 +14,7 @@
 
       <header class="header section--grey">
         <div class="container">
-          <nav class="header__navigation">
+          <nav class="navigation user">
             <a class="header__logo-link" href="#0">
               <img class="header__logo-img" src="./img/logo-m.svg" alt="Логотип агентства" width="115" height="40">
             </a>
@@ -45,41 +45,43 @@
         </div>
       </header>
 
-      <section class="welcome section section--grey">
-        <div class="container">
-          <div class="welcome__content">
-            <a class="button" href="#0">REAL ESTATE</a>
-            <h1 class="main__title">Let's hunt for your dream residence</h1>
-            <p class="welcome__text">
-              Explore our range of beautiful properties with the addition of separate accommodation suitable for you.
-            </p>
-          </div>
-          <form class="welcome__form">
-            <button class="welcome__button welcome__button--active" type="button">Buy</button>
-            <button class="welcome__button" type="button">Rent</button>
-            <div class="search-group__wrapper">
-              <div class="search__group">
-                <label class="search__label" for="location">Location</label>
-                <label class="search__label" for="type">Type</label>
-                <label class="search__label" for="price-range">Price Range</label>
-                <select class="search__select" name="location" id="location">
-                  <option value="1">Bogor, Jawa Barat</option>
-                  <option value="2">Bogor, Jawa Barat</option>
-                </select>
-                <select class="search__select" name="type" id="type">
-                  <option value="1">Home</option>
-                  <option value="2">Apartments</option>
-                  <option value="3">Villa</option>
-                </select>
-                <select class="search__select" name="price-range" id="price-range">
-                  <option value="1">$200-$350</option>
-                  <option value="2">$350-$500</option>
-                  <option value="3">$550-$10000</option>
-                </select>
-                <button class="button--color search__button" type="submit">Search</button>
-              </div>
+      <section class="section section--grey">
+        <div class="welcome">
+          <div class="container">
+            <div class="welcome__content">
+              <a class="button" href="#0">REAL ESTATE</a>
+              <h1 class="main__title">Let's hunt for your dream residence</h1>
+              <p class="welcome__text">
+                Explore our range of beautiful properties with the addition of separate accommodation suitable for you.
+              </p>
             </div>
-          </form>
+            <form class="welcome__form search">
+              <button class="welcome__button welcome__button--active" type="button">Buy</button>
+              <button class="welcome__button" type="button">Rent</button>
+              <div class="search-group__wrapper">
+                <div class="search__group">
+                  <label class="search__label" for="location">Location</label>
+                  <label class="search__label" for="type">Type</label>
+                  <label class="search__label" for="price-range">Price Range</label>
+                  <select class="search__select" name="location" id="location">
+                    <option value="1">Bogor, Jawa Barat</option>
+                    <option value="2">Bogor, Jawa Barat</option>
+                  </select>
+                  <select class="search__select" name="type" id="type">
+                    <option value="1">Home</option>
+                    <option value="2">Apartments</option>
+                    <option value="3">Villa</option>
+                  </select>
+                  <select class="search__select" name="price-range" id="price-range">
+                    <option value="1">$200-$350</option>
+                    <option value="2">$350-$500</option>
+                    <option value="3">$550-$10000</option>
+                  </select>
+                  <button class="button--color search__button" type="submit">Search</button>
+                </div>
+              </div>
+            </form>
+          </div>
         </div>
       </section>
 
